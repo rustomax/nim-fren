@@ -33,8 +33,8 @@ try:
         let (_, fname, fext) = splitFile(file)
         let new_fname = prefix & pg.getPassword() & fext
         let new_fullname = joinPath(dir, new_fname)
-        echo fname & fext & " -> " & new_fname
         moveFile(old_fullname, new_fullname)
+        echo fname & fext & " ~> " & new_fname
 except OSError:
     let e = getCurrentException()
     echo "ERROR: " & e.msg
