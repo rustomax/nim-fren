@@ -9,7 +9,7 @@ import passgen
 
 if paramCount() != 2:
     echo "usage:"
-    echo "  picren <dir> <prefix>"
+    echo "  fren <dir> <prefix>"
     quit(-1)
 
 let dir = paramStr(1)
