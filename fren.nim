@@ -1,8 +1,8 @@
 ## Converts filenames in a specific directory to a uniform format
-## <prefix><random alphanumerix suffix>.<extension>
+## <prefix><random alphanumeric suffix>.<extension>
 ##
 ## Example: fren ~/Pictures/Incoming/ futuristic-
-## index.jpg -> futuristic-A5X9.jpg
+## index.jpg ~> futuristic-A5X9.jpg
 
 import os
 import passgen

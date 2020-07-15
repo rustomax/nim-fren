@@ -3,7 +3,7 @@
 Little utility in Nim to convert filenames to a uniform format:
 
 ```
-<prefix><random alphanumerix suffix>.<extension>
+<prefix><random alphanumeric suffix>.<extension>
 ```
 
 ## Compile
