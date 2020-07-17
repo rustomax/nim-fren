@@ -10,6 +10,8 @@ Little utility in Nim to convert filenames to a uniform format:
 
 ```sh
 $ nimble install passgen
+$ git clone https://github.com/rustomax/nim-fren.git
+$ cd nim-fren
 $ mkdir bin
 $ nim c -d:release -o:bin/fren fren.nim
 ```
