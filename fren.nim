@@ -17,7 +17,7 @@ let prefix = paramStr(2)
 let glob = joinPath(dir, "/*")
 
 # Check if source directory exists, otherwise exist with error
-if not existsDir(dir):
+if not dirExists(dir):
     echo "ERROR: Source directory doesn't exist"
     quit(-2)
 
